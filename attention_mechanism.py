@@ -226,6 +226,6 @@ def AttentionModule(Kheads,kernel=(3,3),classes=5,add_dim=1,spatialdropoutrate=0
 def expand_dims(x,axis=1):
     return K.expand_dims(x,axis)
 
+
 def tensor_mean(x,axis=1):
     return K.mean(x, axis)
-
